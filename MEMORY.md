@@ -1,0 +1,3 @@
+- [Ollama 概述](ollama-overview.md) — 本地 LLM 运行工具的定义、优劣势和适用场景
+- [涌现 Emergence](emergence-in-ai.md) — 涌现概念、LLM 中的表现、争议和关键论文
+- [引导型 vs 工程型 Skill](guided-vs-procedural-skills.md) — 概念分化、市场需求、构建方法论、学术前沿
