@@ -3,3 +3,5 @@
 - [引导型 vs 工程型 Skill](guided-vs-procedural-skills.md) — 概念分化、市场需求、构建方法论、学术前沿
 - [自动知识捕获指令](auto-summarize-directive.md) — 触发条件、执行动作、不重复写入规则
 - [人在回路 HITL](human-in-the-loop.md) — Agent 控制三级别、LangGraph 断点机制、审批与升级模式、异步 Web 实现
+- [cangjie-skill 评测](cangjie-skill-evaluation.md) — RIA-TV++ 方法论、8/10 评分、亮点与局限、CC/WorkBuddy 适配方案
+- [AI 文献查找能力](ai-literature-search-capabilities.md) — 能力边界、学术 skills 推荐、MCP 配置、WorkBuddy+Zotero 方案
