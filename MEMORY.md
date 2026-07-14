@@ -5,3 +5,7 @@
 - [人在回路 HITL](human-in-the-loop.md) — Agent 控制三级别、LangGraph 断点机制、审批与升级模式、异步 Web 实现
 - [cangjie-skill 评测](cangjie-skill-evaluation.md) — RIA-TV++ 方法论、8/10 评分、亮点与局限、CC/WorkBuddy 适配方案
 - [AI 文献查找能力](ai-literature-search-capabilities.md) — 能力边界、学术 skills 推荐、MCP 配置、WorkBuddy+Zotero 方案
+- [Agent 工作流编排模式](agent-orchestrator-pattern.md) — 批次划分、状态机、硬编码检查点、双路径上下文传递
+- [SOP→Skill 拆分方法论](sop-to-skill-methodology.md) — 三维取舍矩阵、设计规范、中央数据枢纽、HITL 分级
+- [Agent 落地部署清单](agent-deployment-checklist.md) — 前置条件三级分类、五阶段路线图、风险矩阵、TCR/ATCC
+- [学术论文免费获取](free-academic-paper-access.md) — arXiv/Sci-Hub/Unpaywall/作者直索等渠道与优先级
