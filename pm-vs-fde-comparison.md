@@ -9,6 +9,8 @@ metadata:
 
 # 产品经理 (PM) vs 前线部署工程师 (FDE)
 
+> 相关记忆：[[fde-learning-roadmap]]（FDE 完整学习路线）、[[guojinjia-fde-plan]]（定制化一年计划）
+
 ## 核心定义
 - **PM**：定义产品方向——"做什么"，产出 PRD/路线图/优先级
 - **FDE**：让产品在客户侧落地——"怎么在真实环境跑起来"，产出集成方案/定制代码/反馈回路。代表公司：Palantir。

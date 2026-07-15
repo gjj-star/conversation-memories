@@ -10,3 +10,6 @@
 - [Agent 落地部署清单](agent-deployment-checklist.md) — 前置条件三级分类、五阶段路线图、风险矩阵、TCR/ATCC
 - [学术论文免费获取](free-academic-paper-access.md) — arXiv/Sci-Hub/Unpaywall/作者直索等渠道与优先级
 - [PM vs FDE 对比](pm-vs-fde-comparison.md) — 产品经理与前线部署工程师的异同、技能、发展路径与转型建议
+- [FDE 学习路线](fde-learning-roadmap.md) — 从零到 FDE 的完整技术栈、实操项目、模拟方法和国内岗位入口
+- [郭锦佳 - 个人画像](guojinjia-profile.md) — 教育背景、技能、项目经历与职业探索状态
+- [郭锦佳 - FDE 一年计划](guojinjia-fde-plan.md) — 定制化准备计划（2025.07-2026.07），含实习策略、技术补课、关键项目
