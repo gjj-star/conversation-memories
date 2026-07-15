@@ -9,3 +9,4 @@
 - [SOP→Skill 拆分方法论](sop-to-skill-methodology.md) — 三维取舍矩阵、设计规范、中央数据枢纽、HITL 分级
 - [Agent 落地部署清单](agent-deployment-checklist.md) — 前置条件三级分类、五阶段路线图、风险矩阵、TCR/ATCC
 - [学术论文免费获取](free-academic-paper-access.md) — arXiv/Sci-Hub/Unpaywall/作者直索等渠道与优先级
+- [PM vs FDE 对比](pm-vs-fde-comparison.md) — 产品经理与前线部署工程师的异同、技能、发展路径与转型建议
