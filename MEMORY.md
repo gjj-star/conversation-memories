@@ -14,3 +14,4 @@
 - [FDE 学习路线](fde-learning-roadmap.md) — 从零到 FDE 的完整技术栈、实操项目、模拟方法和国内岗位入口
 - [郭锦佳 - 个人画像](guojinjia-profile.md) — 教育背景、技能、项目经历与职业探索状态
 - [郭锦佳 - FDE 一年计划](guojinjia-fde-plan.md) — 定制化准备计划（2025.07-2026.07），含实习策略、技术补课、关键项目
+- [BOSS直聘爬虫搭建与 FDE 岗位抓取](boss-zhipin-scraper-setup.md) — boss-zhipin-scraper 环境搭建、IPv6 修复、广州 FDE 岗位抓取结果与命令模板
