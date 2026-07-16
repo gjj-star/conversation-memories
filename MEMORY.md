@@ -1,5 +1,6 @@
 - [Ollama 概述](ollama-overview.md) — 本地 LLM 运行工具的定义、优劣势和适用场景
 - [涌现 Emergence](emergence-in-ai.md) — 涌现概念、LLM 中的表现、争议和关键论文
+- [世界模型与后训练](world-models-in-ai.md) — 世界模型 vs LLM、后训练阶段（SFT/RLHF/在线RL）、VLA 与 DW0.5 案例
 - [引导型 vs 工程型 Skill](guided-vs-procedural-skills.md) — 概念分化、市场需求、构建方法论、学术前沿
 - [自动知识捕获指令](auto-summarize-directive.md) — 触发条件、执行动作、不重复写入规则
 - [人在回路 HITL](human-in-the-loop.md) — Agent 控制三级别、LangGraph 断点机制、审批与升级模式、异步 Web 实现
