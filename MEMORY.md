@@ -23,3 +23,4 @@
 - [响应式 vs 声明式](reactivity-vs-declarative.md) — Vue 中 reactive 与 declarative 的关系与异同
 - [RPA 基础](rpa-basics.md) — 机器人流程自动化定义、原理、场景与 API/AI 区别
 - [Agentic RPA](agentic-rpa.md) — AI Agent+RPA 的能力升级、架构、场景与纯 Agent 区别及挑战
+- [Agent/Skill 式自动化 vs Agentic RPA](agent-skill-automation.md) — workbuddy+企微+Skill 财务方案归类与优劣
