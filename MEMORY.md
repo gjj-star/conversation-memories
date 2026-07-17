@@ -22,3 +22,4 @@
 - [声明式范式](declarative-paradigm.md) — Dockerfile 与 Vue 的声明式对比、优点与命令式反例
 - [响应式 vs 声明式](reactivity-vs-declarative.md) — Vue 中 reactive 与 declarative 的关系与异同
 - [RPA 基础](rpa-basics.md) — 机器人流程自动化定义、原理、场景与 API/AI 区别
+- [Agentic RPA](agentic-rpa.md) — AI Agent+RPA 的能力升级、架构、场景与纯 Agent 区别及挑战
