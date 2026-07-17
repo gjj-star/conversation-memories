@@ -16,3 +16,7 @@
 - [郭锦佳 - FDE 一年计划](guojinjia-fde-plan.md) — 定制化准备计划（2025.07-2026.07），含实习策略、技术补课、关键项目
 - [BOSS直聘爬虫搭建与 FDE 岗位抓取](boss-zhipin-scraper-setup.md) — boss-zhipin-scraper 环境搭建、IPv6 修复、广州 FDE 岗位抓取结果与命令模板
 - [记忆落盘确认反馈](feedback-memory-acknowledgment.md) — 用户要求每次保存记忆后显式告知
+- [知识捕获指令](knowledge-capture-directive.md) — 用户不懂的技术知识应存入知识库（feedback）
+- [Docker 基础](docker-basics.md) — 容器化平台定义、容器vs虚拟机、镜像/容器/Dockerfile
+- [Docker 环境一致性](docker-environment-consistency.md) — 解决"在我机器上能跑"、三层保障与局限
+- [声明式范式](declarative-paradigm.md) — Dockerfile 与 Vue 的声明式对比、优点与命令式反例
