@@ -28,3 +28,6 @@
 - [融资轮次](financing-rounds.md) — 种子/天使/A/B/C/D 轮定义、各轮阶段、金额、投资方与求职语境信号
 - [单据](danju-documents.md) — 单据定义、常见类型、四大作用、与原始凭证/台账/账簿的关系
 - [Ontology 本体](ontology-concept.md) — 哲学本体论 vs 计算机本体、与知识图谱关系、Palantir Ontology 与 FDE 关联
+- [OA 系统概述](oa-system-overview.md) — 定义、核心模块、技术架构、主流产品选型与五步决策框架
+- [OA 与 FDE 岗位](oa-fde-relationship.md) — FDE 在 OA 项目中的工作项、能力映射、黄金练兵场逻辑
+- [OA 中 Agent 集成](oa-agent-integration.md) — 五级成熟度模型（L1 RPA→L5 跨系统编排）、产品动态、实操切入点
