@@ -26,3 +26,4 @@
 - [Agent/Skill 式自动化 vs Agentic RPA](agent-skill-automation.md) — workbuddy+企微+Skill 财务方案归类与优劣
 - [台账](taizhang-ledger.md) — 台账定义、词源、与会计账簿区别、常见类型与职场用途
 - [融资轮次](financing-rounds.md) — 种子/天使/A/B/C/D 轮定义、各轮阶段、金额、投资方与求职语境信号
+- [单据](danju-documents.md) — 单据定义、常见类型、四大作用、与原始凭证/台账/账簿的关系
