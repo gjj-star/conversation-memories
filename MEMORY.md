@@ -31,3 +31,5 @@
 - [OA 系统概述](oa-system-overview.md) — 定义、核心模块、技术架构、主流产品选型与五步决策框架
 - [OA 与 FDE 岗位](oa-fde-relationship.md) — FDE 在 OA 项目中的工作项、能力映射、黄金练兵场逻辑
 - [OA 中 Agent 集成](oa-agent-integration.md) — 五级成熟度模型（L1 RPA→L5 跨系统编排）、产品动态、实操切入点
+- [HRM 概述](hrm-overview.md) — 人力资源管理系统定义、核心模块、国内产品、与 OA 考勤的边界
+- [ERP vs CRM vs HRM](erp-crm-hrm-relationship.md) — 三者定义、核心区别、联动场景（销售订单→生产→薪酬分摊）、现实架构模式
