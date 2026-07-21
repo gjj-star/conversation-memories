@@ -42,3 +42,4 @@
 - [B端 vs C端](b2b-b2c-b-end-c-end.md) — 核心差异对比（客户/决策逻辑/销售周期/客单价/复杂度）、B2B/B2C/C2C/B2B2C/G端/SMB 变种、能力模型差异
 - [SOP 定义](sop-definition.md) — 四大特征（步骤化/可重复/可复制/可检验）、与说明书/教程区别、适用场景与局限性、与 sop-to-skill-methodology 的关联
 - [Agent vs Workflow 对比](agent-vs-workflow-comparison.md) — 控制权/可预测性/审计等九维对比、各自硬伤、适用场景矩阵、混合编排趋势（Dify Agent Node + OMC executor）
+- [工作流对接机制](workflow-integration-mechanisms.md) — 五种业务对接方式（REST API/Webhook/消息队列/代码节点/RPA兜底）、审批节点内部执行流程、现实对接问题
