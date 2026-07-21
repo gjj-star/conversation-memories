@@ -34,3 +34,4 @@
 - [OA 中 Agent 集成](oa-agent-integration.md) — 五级成熟度模型（L1 RPA→L5 跨系统编排）、产品动态、实操切入点
 - [HRM 概述](hrm-overview.md) — 人力资源管理系统定义、核心模块、国内产品、与 OA 考勤的边界
 - [ERP vs CRM vs HRM](erp-crm-hrm-relationship.md) — 三者定义、核心区别、联动场景（销售订单→生产→薪酬分摊）、现实架构模式
+- [巴纳姆效应](barnum-effect.md) — 弗拉实验、四个心理机制（模糊语言/主观验证/正向偏好/权威包装）、识别方法、与占卜的关系
