@@ -1,0 +1,46 @@
+- [Ollama 概述](ollama-overview.md) — 本地 LLM 运行工具的定义、优劣势和适用场景
+- [涌现 Emergence](emergence-in-ai.md) — 涌现概念、LLM 中的表现、争议和关键论文
+- [世界模型与后训练](world-models-in-ai.md) — 世界模型 vs LLM、后训练阶段（SFT/RLHF/在线RL）、VLA 与 DW0.5 案例
+- [引导型 vs 工程型 Skill](guided-vs-procedural-skills.md) — 概念分化、市场需求、构建方法论、学术前沿
+- [自动知识捕获指令](auto-summarize-directive.md) — 触发条件、执行动作、不重复写入规则
+- [人在回路 HITL](human-in-the-loop.md) — Agent 控制三级别、LangGraph 断点机制、审批与升级模式、异步 Web 实现
+- [cangjie-skill 评测](cangjie-skill-evaluation.md) — RIA-TV++ 方法论、8/10 评分、亮点与局限、CC/WorkBuddy 适配方案
+- [AI 文献查找能力](ai-literature-search-capabilities.md) — 能力边界、学术 skills 推荐、MCP 配置、WorkBuddy+Zotero 方案
+- [Agent 工作流编排模式](agent-orchestrator-pattern.md) — 批次划分、状态机、硬编码检查点、双路径上下文传递
+- [SOP→Skill 拆分方法论](sop-to-skill-methodology.md) — 三维取舍矩阵、设计规范、中央数据枢纽、HITL 分级
+- [Agent 落地部署清单](agent-deployment-checklist.md) — 前置条件三级分类、五阶段路线图、风险矩阵、TCR/ATCC
+- [学术论文免费获取](free-academic-paper-access.md) — arXiv/Sci-Hub/Unpaywall/作者直索等渠道与优先级
+- [PM vs FDE 对比](pm-vs-fde-comparison.md) — 产品经理与前线部署工程师的异同、技能、发展路径与转型建议
+- [FDE 学习路线](fde-learning-roadmap.md) — 从零到 FDE 的完整技术栈、实操项目、模拟方法和国内岗位入口
+- [郭锦佳 - 个人画像](guojinjia-profile.md) — 教育背景、技能、项目经历与职业探索状态
+- [郭锦佳 - FDE 一年计划](guojinjia-fde-plan.md) — 定制化准备计划（2025.07-2026.07），含实习策略、技术补课、关键项目
+- [BOSS直聘爬虫搭建与 FDE 岗位抓取](boss-zhipin-scraper-setup.md) — boss-zhipin-scraper 环境搭建、IPv6 修复、广州 FDE 岗位抓取结果与命令模板
+- [记忆落盘确认反馈](feedback-memory-acknowledgment.md) — 用户要求每次保存记忆后显式告知
+- [知识捕获指令](knowledge-capture-directive.md) — 用户不懂的技术知识应存入知识库（feedback）
+- [Docker 基础](docker-basics.md) — 容器化平台定义、容器vs虚拟机、镜像/容器/Dockerfile
+- [Docker 环境一致性](docker-environment-consistency.md) — 解决"在我机器上能跑"、三层保障与局限
+- [声明式范式](declarative-paradigm.md) — Dockerfile 与 Vue 的声明式对比、优点与命令式反例
+- [响应式 vs 声明式](reactivity-vs-declarative.md) — Vue 中 reactive 与 declarative 的关系与异同
+- [RPA 基础](rpa-basics.md) — 机器人流程自动化定义、原理、场景与 API/AI 区别
+- [Agentic RPA](agentic-rpa.md) — AI Agent+RPA 的能力升级、架构、场景与纯 Agent 区别及挑战
+- [Agent/Skill 式自动化 vs Agentic RPA](agent-skill-automation.md) — workbuddy+企微+Skill 财务方案归类与优劣
+- [台账](taizhang-ledger.md) — 台账定义、词源、与会计账簿区别、常见类型与职场用途
+- [融资轮次](financing-rounds.md) — 种子/天使/A/B/C/D 轮定义、各轮阶段、金额、投资方与求职语境信号
+- [单据](danju-documents.md) — 单据定义、常见类型、四大作用、与原始凭证/台账/账簿的关系
+- [Ontology 本体](ontology-concept.md) — 哲学/计算机本体、Palantir Ontology 三要素+Action、与 FDE 关系、AI 时代回热
+- [知识图谱](knowledge-graph.md) — 三元组结构、与 Ontology 的 schema/instance 分层、图数据库优势、反欺诈/推荐/追溯场景
+- [OA 系统概述](oa-system-overview.md) — 定义、核心模块、技术架构、主流产品选型与五步决策框架
+- [OA 与 FDE 岗位](oa-fde-relationship.md) — FDE 在 OA 项目中的工作项、能力映射、黄金练兵场逻辑
+- [OA 中 Agent 集成](oa-agent-integration.md) — 五级成熟度模型（L1 RPA→L5 跨系统编排）、产品动态、实操切入点
+- [HRM 概述](hrm-overview.md) — 人力资源管理系统定义、核心模块、国内产品、与 OA 考勤的边界
+- [ERP vs CRM vs HRM](erp-crm-hrm-relationship.md) — 三者定义、核心区别、联动场景（销售订单→生产→薪酬分摊）、现实架构模式
+- [巴纳姆效应](barnum-effect.md) — 弗拉实验、四个心理机制（模糊语言/主观验证/正向偏好/权威包装）、识别方法、与占卜的关系
+- [六爻概述](six-yao-overview.md) — 八卦重卦/纳甲/世应动变、历史案例（管辂/郭璞/邵雍/野鹤老人）、"应验"的六大心理机制、作为认知对象的研究价值
+- [索罗斯反身性](reflexivity-soros.md) — 认知/参与函数、繁荣-崩溃八步循环、与传统经济学对立（均衡vs极端）、与六爻预测的关系、政治/教育/AI外延
+- [方法论](methodology-concept.md) — 方法≠方法论、三个核心问题（知识论/边界/反身）、不同领域的"对"的标准、与六爻实测的关联
+- [田野调查](fieldwork.md) — 马林诺夫斯基创立参与式观察、四大核心方法（参与式观察/深度访谈/田野笔记/长期驻留）、当代应用、方法论困境、与六爻实验的呼应
+- [B端 vs C端](b2b-b2c-b-end-c-end.md) — 核心差异对比（客户/决策逻辑/销售周期/客单价/复杂度）、B2B/B2C/C2C/B2B2C/G端/SMB 变种、能力模型差异
+- [SOP 定义](sop-definition.md) — 四大特征（步骤化/可重复/可复制/可检验）、与说明书/教程区别、适用场景与局限性、与 sop-to-skill-methodology 的关联
+- [Agent vs Workflow 对比](agent-vs-workflow-comparison.md) — 控制权/可预测性/审计等九维对比、各自硬伤、适用场景矩阵、混合编排趋势（Dify Agent Node + OMC executor）
+- [工作流对接机制](workflow-integration-mechanisms.md) — 五种业务对接方式（REST API/Webhook/消息队列/代码节点/RPA兜底）、审批节点内部执行流程、现实对接问题
+- [生命周期](lifecycle-concept.md) — 多领域实例（软件/产品/数据/用户/工作流/Agent/员工/合同/订单）、三个共性特征、与工作流和B端系统的关系
