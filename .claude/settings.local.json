@@ -1,7 +1,23 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git *)"
+      "Bash(git *)",
+      "Read(//c/Users/EDY/.claude/**)",
+      "Read(//c/Users/EDY/.omc/**)",
+      "WebFetch(domain:datawhalechina.github.io)",
+      "Bash(node *)",
+      "Bash(curl -sL \"https://r.jina.ai/https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/agent-teams/\" -H \"Accept: text/markdown\")",
+      "Bash(curl -sL \"https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/agent-teams/\")",
+      "Bash(curl *)",
+      "WebSearch",
+      "Bash(gh auth *)",
+      "Bash(npx --version)",
+      "Bash(echo \"=== Copying 9 skills from clank to ~/.claude/skills/ ===\")",
+      "Bash(cp -r /c/Users/EDY/AppData/Local/Temp/clank/skills/collaboration/brainstorming 'C:\\\\Users\\\\EDY/.claude/skills/brainstorming')",
+      "Bash(echo \"✓ brainstorming\")",
+      "Bash(cp -r /c/Users/EDY/AppData/Local/Temp/clank/skills/collaboration/writing-plans 'C:\\\\Users\\\\EDY/.claude/skills/writing-plans')",
+      "Bash(echo \"✓ writing-plans\")",
+      "Skill(claude-api)"
     ]
   }
 }
