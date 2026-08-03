@@ -59,3 +59,7 @@
 ## [2026-08-03] Flink是什么
 - **用户问**：Flink是什么
 - **回答摘要**：解释了Apache Flink是开源的分布式流处理引擎，实时计算领域的事实标准。核心概念：流处理vs批处理对比（毫秒延迟vs分钟级）、Source/Transformation/Sink组件、窗口机制（滚动/滑动/会话）、状态管理与Checkpoint实现精确一次语义。说明阿里是最大贡献者，Flink SQL可大幅降低使用门槛，并展示了实时数仓典型链路（Kafka→Flink→Hologres→大屏）。
+
+## [2026-08-03] uvicorn是什么
+- **用户问**：uvicorn是什么
+- **回答摘要**：解释了Uvicorn是基于ASGI协议的Python高性能异步Web服务器，FastAPI官方推荐。区分了服务器与框架的层次关系（FastAPI写业务，Uvicorn接请求），对比了WSGI（同步、不支持WebSocket）与ASGI（异步、支持WebSocket）的差异，说明性能来源是asyncio+uvloop+httptools。补充了开发环境--reload热重载和生产环境Gunicorn+Uvicorn混合模式。
