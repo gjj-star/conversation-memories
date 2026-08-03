@@ -55,3 +55,7 @@
 ## [2026-08-03] PostgreSQL是什么
 - **用户问**：PostgreSQL是什么
 - **回答摘要**：解释了PostgreSQL是最流行的开源关系型数据库（RDBMS），核心特点包括：完整SQL标准和ACID事务、MVCC并发控制、JSONB/数组/几何等丰富类型、PostGIS/pgvector等扩展体系、BSD协议免费。对比了MySQL/SQL Server/Oracle的差异，并说明Hologres兼容PG协议意味着懂PG就会写Hologres查询。
+
+## [2026-08-03] Flink是什么
+- **用户问**：Flink是什么
+- **回答摘要**：解释了Apache Flink是开源的分布式流处理引擎，实时计算领域的事实标准。核心概念：流处理vs批处理对比（毫秒延迟vs分钟级）、Source/Transformation/Sink组件、窗口机制（滚动/滑动/会话）、状态管理与Checkpoint实现精确一次语义。说明阿里是最大贡献者，Flink SQL可大幅降低使用门槛，并展示了实时数仓典型链路（Kafka→Flink→Hologres→大屏）。
