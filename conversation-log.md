@@ -63,3 +63,7 @@
 ## [2026-08-03] uvicorn是什么
 - **用户问**：uvicorn是什么
 - **回答摘要**：解释了Uvicorn是基于ASGI协议的Python高性能异步Web服务器，FastAPI官方推荐。区分了服务器与框架的层次关系（FastAPI写业务，Uvicorn接请求），对比了WSGI（同步、不支持WebSocket）与ASGI（异步、支持WebSocket）的差异，说明性能来源是asyncio+uvloop+httptools。补充了开发环境--reload热重载和生产环境Gunicorn+Uvicorn混合模式。
+
+## [2026-08-07] 财务BP是什么
+- **用户问**：财务BP是什么
+- **回答摘要**：解释了财务BP（Finance Business Partner）是嵌入业务团队的财务角色，从传统"后端核算"前移到"业务搭档"。对比了与传统财务的区别（事前决策 vs 事后记账），介绍了经营分析、预算预测、定价盈利模型、成本优化、风险提示五项核心工作，以及销售、研发、供应链、HR四类典型配置。说明了岗位兴起的原因——把财务能力前置到决策环节，避免业务在财务盲区中做决策。
