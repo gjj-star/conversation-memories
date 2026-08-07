@@ -52,6 +52,10 @@
 - **用户问**：网络状态码大全
 - **回答摘要**：整理了HTTP状态码的完整列表，分为五类：1xx信息响应（100-103）、2xx成功（200/201/204/206）、3xx重定向（301/302/304/307/308，特别说明了301 vs 302的缓存差异和坑）、4xx客户端错误（400-451，重点区分401未认证 vs 403无权限、405方法不允许、422参数校验失败、429限流）、5xx服务端错误（500-504）。总结了日常开发中最常见的14个状态码。后续补充了API/代理非标准码：Cloudflare 52x系列（520-530，其中524=源站响应超时）、Nginx 499、AWS ELB 460/463、IIS 440/449。
 
+## [2026-08-03] Hologres（PostgreSQL协议）是什么
+- **用户问**：Hologres（PostgreSQL协议）是什么
+- **回答摘要**：解释了Hologres是阿里云自研的一站式实时交互式分析引擎（HSAP），完全兼容PostgreSQL协议。核心特点：HSAP统一实时写入+实时分析+在线服务、与Flink/MaxCompute/DataWorks等阿里生态深度融合、存储计算分离。对比了ClickHouse（OLAP强但不擅长高并发点查）和TiDB/TiFlash的差异。一句话概括：PostgreSQL协议 + ClickHouse级OLAP + Redis级点查 + Flink实时写入。
+
 ## [2026-08-03] PostgreSQL是什么
 - **用户问**：PostgreSQL是什么
 - **回答摘要**：解释了PostgreSQL是最流行的开源关系型数据库（RDBMS），核心特点包括：完整SQL标准和ACID事务、MVCC并发控制、JSONB/数组/几何等丰富类型、PostGIS/pgvector等扩展体系、BSD协议免费。对比了MySQL/SQL Server/Oracle的差异，并说明Hologres兼容PG协议意味着懂PG就会写Hologres查询。
