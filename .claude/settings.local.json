@@ -17,7 +17,16 @@
       "Bash(echo \"✓ brainstorming\")",
       "Bash(cp -r /c/Users/EDY/AppData/Local/Temp/clank/skills/collaboration/writing-plans 'C:\\\\Users\\\\EDY/.claude/skills/writing-plans')",
       "Bash(echo \"✓ writing-plans\")",
-      "Skill(claude-api)"
+      "Skill(claude-api)",
+      "Bash(claude --version)",
+      "Bash(claude plugins *)",
+      "Bash(obsidian-cli print-default *)",
+      "WebFetch(domain:github.com)",
+      "Bash(where claude *)"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
 }
