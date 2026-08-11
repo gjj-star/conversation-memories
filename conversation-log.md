@@ -1,5 +1,9 @@
 # 对话记录
 
+## [2026-08-11] Embedding、Rerank、LLM 三种模型对比
+- **用户问**：Embedding 模型、Rerank 模型和 LLM 模型对比
+- **回答摘要**：从角色定位、技术架构、推理速度、典型大小等维度对比了三类模型：Embedding（双塔、向量化、粗召回）、Rerank（Cross-Encoder、精排）、LLM（Decoder-only、生成）。阐述了 RAG 三层 Pipeline 协作逻辑和各自代表模型。
+
 ## [2026-08-11] WebFetch 详解
 - **用户问**：详解webfetch
 - **回答摘要**：详解了 Claude Code 内置的 WebFetch 工具：四个参数（url 必填、prompt 可选、start_line/end_line 截取行）、工作流程（HTTP 下载→HTML 转 Markdown→默认约 5000 行上限、15 分钟缓存）、关键限制（不能执行 JS 所以 SPA 抓不到、需登录页面失败、跨域重定向不自动跟随、robots.txt 限制）、权限控制（settings.json 中 allow/deny 列表配置 WebFetch(URL) 规则）、典型使用场景（查官方文档、与 WebSearch 配合"先搜网址再读内容"）。
