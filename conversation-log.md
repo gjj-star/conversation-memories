@@ -1,5 +1,9 @@
 # 对话记录
 
+## [2026-08-14] 如何拉取请求地址上游模型
+- **用户问**：如何拉取请求地址上游模型
+- **回答摘要**：请求地址即 `~/.claude/settings.json` 中 `ANTHROPIC_BASE_URL`（当前为 https://api.deepseek.com/anthropic）。拉取上游模型清单两种接口风格：Anthropic 原生 `GET /v1/models`（x-api-key + anthropic-version 头，实测 DeepSeek 的 anthropic 路径返回 404 不支持）、OpenAI 兼容 `GET /v1/models`（Bearer 认证，实测 https://api.deepseek.com/v1/models 返回 deepseek-v4-flash、deepseek-v4-pro 两个模型）。另介绍了查实际使用模型的方法：Claude Code `/status`、`/model` 命令、settings.json 的 ANTHROPIC_MODEL 与 OMC 层级别名映射、中转站响应头 x-litellm-* 溯源真实上游。
+
 ## [2026-08-14] 冒烟测试是什么
 - **用户问**：冒烟测试是什么
 - **回答摘要**：冒烟测试（Smoke Testing）是最基础、最快速的软件验证——在深入测试之前先跑核心功能，确认"系统能否基本跑起来"，跑得起来才交给测试团队深入测，跑不起来直接打回。名字源于电子硬件"通电冒烟"检查。对比了冒烟测试（广而浅）、回归测试（全面）、单元测试（最小粒度）的差异，列举了 CI/CD 自动冒烟、提测前自测、上线后快验三个典型场景。
