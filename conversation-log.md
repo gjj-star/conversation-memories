@@ -1,5 +1,9 @@
 # 对话记录
 
+## [2026-08-24 10:59] 哈希不一致是什么
+- **用户问**：哈希不一致是什么
+- **回答摘要**：解释了哈希是数据的"指纹"（MD5/SHA-256 等把任意数据压缩为固定长度字符串），同一数据同一算法结果必然相同，不一致说明数据被篡改、损坏，或对比对象本身不同。列举了四个常见场景：文件下载校验（比对官方公布的校验和）、npm/pnpm 安装报错 integrity check failed（lockfile 记录的哈希与 registry 实际内容不符，常见于缓存损坏）、Git 对象哈希校验（仓库损坏）、CDN 的 ETag 缓存校验。最后区分了"哈希不一致"与"一致性哈希"（分布式系统数据分布算法）是两个不同概念。
+
 ## [2026-08-14] 如何拉取请求地址上游模型
 - **用户问**：如何拉取请求地址上游模型
 - **回答摘要**：请求地址即 `~/.claude/settings.json` 中 `ANTHROPIC_BASE_URL`（当前为 https://api.deepseek.com/anthropic）。拉取上游模型清单两种接口风格：Anthropic 原生 `GET /v1/models`（x-api-key + anthropic-version 头，实测 DeepSeek 的 anthropic 路径返回 404 不支持）、OpenAI 兼容 `GET /v1/models`（Bearer 认证，实测 https://api.deepseek.com/v1/models 返回 deepseek-v4-flash、deepseek-v4-pro 两个模型）。另介绍了查实际使用模型的方法：Claude Code `/status`、`/model` 命令、settings.json 的 ANTHROPIC_MODEL 与 OMC 层级别名映射、中转站响应头 x-litellm-* 溯源真实上游。
@@ -11,6 +15,8 @@
 ## [2026-08-14] SDK是什么
 - **用户问**：SDK是什么
 - **回答摘要**：SDK（Software Development Kit，软件开发工具包）是平台方提供给开发者的"预制工具箱"，包含函数库/API 封装、命令行工具、文档和示例代码。作用是让开发者无需从零实现底层细节（如 HTTP 请求、加密、鉴权），直接调用高层接口。举例了 Anthropic/OpenAI SDK（一行代码调用大模型）、微信 SDK（登录/支付）、Android SDK、Stripe SDK，并区分了 SDK 与 API 的关系：API 是规则说明书，SDK 是照着说明书做好的工具。
+
+## [2026-08-12] PoC 验证是什么
 - **用户问**：PoC 验证是什么
 - **回答摘要**：PoC（Proof of Concept，概念验证）是在正式投入开发前，用最小化原型验证技术/业务可行性的方法论。对比了 PoC、原型、MVP 三者的核心区别（验证可行性 vs 验证交互 vs 验证商业模式），列举了技术选型、算法验证、集成验证、业务假设四个典型场景，强调了只测关键假设、允许失败、预设终止条件三条核心原则。
 
