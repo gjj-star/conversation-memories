@@ -1,5 +1,9 @@
 # 对话记录
 
+## [2026-08-25 11:19] DSH的github:#path:安装路线是否可用
+- **用户问**："当前安装的 0.1.1-rc.2 就是 npm 上的最新版——也就是说 github: + #path: 的'市场自动追踪更新'路线在现阶段根本没有可用的 CLI 支撑"这是另一个 agent 对 DSH 的判断，属实吗
+- **回答摘要**：实测后半句判断不成立，用户直觉是对的。属实的一半：`npm view @deepseek-ai/dsh` 显示 latest/next 均为 0.1.1-rc.2，确实是 npm 最新发布版。不成立的一半：不能由此推出"该路线没有可用 CLI 支撑"——(1) 官方 CLI 参考文档（apps/cli/reference/README.zh.md）明确把 git spec 作为一等公民支持，示例 `dsh plugin --profile tui add github:deepseek-harness/turtle-ui`，发布教程（docs/user/develop/basic/publish.zh.md）还有"从 GitHub 安装"整章；(2) 本机安装的 0.1.1-rc.2 代码（lib/plugin-*.js）用正则 `/^git\+|^github:|\.git(?:#|$)/` 专门识别 git 托管 spec 并给出 allowBuilds 针对性提示，其余参数原样转发给 profile 目录内的 pnpm；(3) `#path:` 子目录安装是 pnpm 自 v9.0.0 起的内置特性（PR #7487），语法 `github:user/repo#path:packages/foo`，可与 ref 组合为 `#branch&path:dir`，而 profile 里的 pnpm 是 v11.22.0；(4) 实证：用户自己的 ~/.dsh/profiles/web/package.json 已装着 `"dsh-kimino-theme": "github:niiang/dsh-kimino-theme"` 并已加入 bundles。真实摩擦点（是"需要一步授权"而非"没有支撑"）：pnpm≥10 默认拦截 git 依赖的 prepare 构建脚本，首次 add 会失败，需把提示的键写入 profile 的 pnpm-workspace.yaml 的 allowBuilds 后重跑；pnpm 必须在 PATH；官方建议锁定 commit（`github:user/repo#<sha>`）防供应链风险；"自动追踪更新"= 定期跑 `dsh plugin --profile web update` 重新解析分支头。对方 agent 的逻辑错误：从"npm 上没有更新的版本"跳到"现有版本没有该能力"，而能力就在已装版本里。
+
 ## [2026-08-25 10:26] 确认记录并推送
 - **用户问**：记录并push
 - **回答摘要**：确认上一轮"DSH里的宿主是什么"已完成记录并推送（commit 6fc4ab9，工作区干净、与 origin/master 同步），并按用户要求将本轮确认也记录提交推送（本条目）。
