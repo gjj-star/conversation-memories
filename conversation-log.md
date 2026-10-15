@@ -155,3 +155,7 @@
 ## [2026-09-17] RNN是什么
 - **用户问**：RNN是什么（先误打成RMM，后更正为RNN）
 - **回答摘要**：解释了RNN（Recurrent Neural Network，循环神经网络）是专门处理序列数据的神经网络，核心特点是"有记忆"——隐状态（hidden state）在每个时间步之间传递，使网络读到后面时还记得前面的信息。说明了RNN处理文本、语音、时间序列的原理（x_t输入→h_t隐状态→y_t输出），介绍了梯度消失/爆炸问题及其改进方案LSTM（三道门）和GRU（简化版），列举了语言模型、机器翻译、股价预测等应用，并指出2017年Transformer出现后大部分NLP任务被取代，但RNN仍是序列建模的经典基础。
+
+## [2026-10-15 11:11] 确认收到 dsh-deep-whale 新版本提醒并卸载该钩子
+- **用户问**：确认收到
+- **回答摘要**：这是对一次性 SessionStart 提醒钩子的确认——该钩子在本轮会话启动时通知 dsh-deep-whale 发布了 v0.1.7（2026-09-30），比此前记录在案的 v0.1.6 新。按钩子内嵌的预设授权（用户此前已授权，本轮「确认收到」为触发条件）卸载了这套提醒机制：① 删除 ~/.claude/hooks/dsh-deep-whale-release.mjs（钩子脚本本体）；② 删除状态文件 ~/.claude/.dsh-deep-whale-release.json（记录 lastSeenTag=v0.1.7、lastCheck 时间戳、6 小时节流）；③ 从 ~/.claude/settings.json 的 hooks.SessionStart 数组中移除引用该 .mjs 的那一条（command 为 node C:/Users/EDY/.claude/hooks/dsh-deep-whale-release.mjs、timeout 15）。删除前先读取了三个目标确认内容与授权范围一致；删除后验证：settings.json 仍能解析为合法 JSON、SessionStart 条目由 5 条降为 4 条、全文检索 dsh-deep-whale 引用 0 处、两个文件均已不存在。另附该提醒的实质建议（未执行，用户仅确认收到、未要求切换构建）：当前 orca-link 用的是钉在 #dev 提交上的构建，若 v0.1.7 已把 peer 上限放宽到 0.3.0 以下即可切回正式版，判断依据是看该 release 的 package.json peerDependencies 约束。
