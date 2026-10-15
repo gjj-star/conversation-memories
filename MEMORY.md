@@ -44,3 +44,4 @@
 - [Agent vs Workflow 对比](agent-vs-workflow-comparison.md) — 控制权/可预测性/审计等九维对比、各自硬伤、适用场景矩阵、混合编排趋势（Dify Agent Node + OMC executor）
 - [工作流对接机制](workflow-integration-mechanisms.md) — 五种业务对接方式（REST API/Webhook/消息队列/代码节点/RPA兜底）、审批节点内部执行流程、现实对接问题
 - [生命周期](lifecycle-concept.md) — 多领域实例（软件/产品/数据/用户/工作流/Agent/员工/合同/订单）、三个共性特征、与工作流和B端系统的关系
+- [Travis CI](travis-ci.md) — 托管 CI 服务、`.travis.yml` 配置、2011 年开创开源免费构建、被 Idera 收购后衰落、2020 终结开源免费额度、被 GitHub Actions 接替
